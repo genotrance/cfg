@@ -1,0 +1,37 @@
+[user]
+        email = dev@genotrance.com
+        name = Ganesh Viswanathan
+[credential]
+        helper = cache --timeout=2592000
+[core]
+        autocrlf = input
+[alias]
+  a = config --get-regexp alias
+  b = branch
+  bd = branch -d
+  bdp = push origin -d
+  c = commit -a -m
+  cf = clean -fxd
+  cl = clone
+  cld = clone --depth=1
+  co = checkout
+  cod = checkout devel
+  com = checkout master
+  d = diff --word-diff=color
+  dt = difftool
+  f = fetch upstream
+  l = log
+  m = merge
+  mud = merge upstream/devel
+  mum = merge upstream/master
+  pfm = push origin master --force
+  pfd = push origin devel --force
+  pl = pull
+  p = push
+  pb = push --set-upstream origin
+  ras = remote add upstream
+  rhh = reset --hard HEAD
+  rhm = reset --hard upstream/master
+  rhd = reset --hard upstream/devel
+  s = status
+
