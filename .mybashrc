@@ -1,3 +1,5 @@
+# dotfiles - https://www.atlassian.com/git/tutorials/dotfiles
+
 # Env
 export PATH="/root/.nimble/bin:/root/.local/bin:/root/go/bin:$PATH"
 export PROGRAMMING="/root/programming"
