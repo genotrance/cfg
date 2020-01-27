@@ -16,7 +16,7 @@ alias nimgdb="gdb -x /root/programming/nimdevel/tools/nim-gdb.py $1 $2 $3 $4 $5 
 alias ix="curl -F 'f:1=<-' ix.io"
 alias tl="tmux ls"
 alias ta="tmux attach-session -t 0 -d"
-alias vi="/home/genotrance/nvim.appimage $1 $2 $3 $4 $5 $6 $7 $8 $9"
+alias vi="nvim"
 alias x="exit"
 
 pcd() { cd "$PROGRAMMING/$1"; }
