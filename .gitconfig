@@ -34,4 +34,6 @@
   rhm = reset --hard upstream/master
   rhd = reset --hard upstream/devel
   s = status
+  ud = !git fetch upstream && git reset --hard upstream/devel && git push
+  um = !git fetch upstream && git reset --hard upstream/master && git push
 
