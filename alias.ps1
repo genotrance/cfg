@@ -4,7 +4,7 @@ doskey /exename=powershell.exe cfg=git --git-dir=$env:USERPROFILE\.cfg --work-tr
 doskey /exename=powershell.exe g=git $*
 doskey /exename=powershell.exe l=busybox ls $*
 doskey /exename=powershell.exe ll=busybox ls -al $*
-doskey /exename=powershell.exe ng=nimgrep --recursive --ext $*
+doskey /exename=powershell.exe ng=nimgrep --recursive --ext:$*
 doskey /exename=powershell.exe nimgdb=gdb -x $env:USERPROFILE\Desktop\DL\programming\nimdevel\tools\nim-gdb.py $*
 doskey /exename=powershell.exe rm=busybox rm $*
 doskey /exename=powershell.exe x=exit
