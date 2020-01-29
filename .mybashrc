@@ -21,6 +21,7 @@ alias ta="tmux attach-session -t 0 -d"
 alias vi="nvim"
 alias x="exit"
 
+hcd() { cd "$HOME/$1"; }
 pcd() { cd "$PROGRAMMING/$1"; }
 gclone() { git clone "https://github.com/$1" $2 $3 $4 $5 $6 $7 $8 $9; }
 
