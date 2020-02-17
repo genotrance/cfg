@@ -33,6 +33,11 @@
   rhh = reset --hard HEAD
   rhm = reset --hard upstream/master
   rhd = reset --hard upstream/devel
+  ri = rebase -i                                           
+  rom = rebase origin/master
+  rod = rebase origin/devel
+  rum = rebase upstream/master
+  rud = rebase upstream/devel
   s = status
   ud = !git fetch upstream && git reset --hard upstream/devel && git push
   um = !git fetch upstream && git reset --hard upstream/master && git push
