@@ -24,6 +24,7 @@
   m = merge
   mud = merge upstream/devel
   mum = merge upstream/master
+  nim = !./koch boot -d:danger && ./koch tools -d:danger
   pfm = push origin master --force
   pfd = push origin devel --force
   pl = pull
