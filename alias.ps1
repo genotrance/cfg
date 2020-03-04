@@ -12,3 +12,4 @@ doskey /exename=powershell.exe x=exit
 doskey /exename=powershell.exe hcd=cd $env:USERPROFILE\$*
 doskey /exename=powershell.exe pcd=cd $env:USERPROFILE\Desktop\DL\programming\$*
 doskey /exename=powershell.exe gclone=git clone https://github.com/$*
+doskey /exename=powershell.exe tkns=taskkill /f /im nimsuggest.exe
