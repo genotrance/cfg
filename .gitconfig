@@ -3,6 +3,7 @@
         name = Ganesh Viswanathan
 [credential]
         helper = cache --timeout=2592000
+	modalprompt = false
 [core]
         autocrlf = input
 [alias]
@@ -43,3 +44,5 @@
   ud = !git fetch upstream && git reset --hard upstream/devel && git push
   um = !git fetch upstream && git reset --hard upstream/master && git push
 
+[credential "helperselector"]
+	selected = store
